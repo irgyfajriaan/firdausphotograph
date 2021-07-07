@@ -358,12 +358,17 @@ img {
   margin-bottom: var(--mb-4);
 }
 .footer__social {
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-2);
 }
 .footer__icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fff;
   margin: 0 var(--mb-2);
+}
+
+.footer_copyright {
+  font-size: 1 rem;
+  color: #4a5f6d;
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -376,7 +381,7 @@ img {
     padding-bottom: 3rem;
   }
   .section-title {
-    margin-bottom: var(--mb-6);
+    margin-bottom: var(--mb-4);
   }
   .section-title::after {
     width: 80px;
